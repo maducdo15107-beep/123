@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Danh sách các câu lạc bộ trường PTDTNT THPT Lào Cai</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: linear-gradient(135deg, #dbeeff, #fff3c4);
+            color: #2c4a6b;
+        }
+
+        /* ===== HEADER (ĐỔI TỪ MÀU SANG ẢNH) ===== */
+        header {
+            background-image: url("header.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            text-align: center;
+            padding: 80px 20px;
+            position: relative;
+        }
+
+        header::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.35);
+        }
+
+        header h1 {
+            margin: 0;
+            color: #ffffff;
+            position: relative;
+            font-size: 36px;
+            line-height: 1.4;
+        }
+
+        /* ===== GIỚI THIỆU ===== */
+        .intro {
+            padding: 30px;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        /* ===== DANH SÁCH CLB ===== */
+        .clubs {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            padding: 30px;
+        }
+
+        .club-card {
+            background-color: #fff8dc;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .club-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        .club-card h2 {
+            margin: 10px 0;
+            color: #1d3557;
+        }
+
+        .club-card p {
+            font-size: 15px;
+        }
+
+        .club-card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 18px;
+            background-color: #ffd166;
+            color: #1d3557;
+            text-decoration: none;
+            border-radius: 20px;
+            transition: 0.3s;
+            font-weight: bold;
+        }
+
+        .club-card a:hover {
+            background-color: #ffca3a;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #cfe8ff;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Danh sách các câu lạc bộ<br>Trường PTDTNT THPT Lào Cai</h1>
+</header>
+
+<section class="intro">
+    <p>
+        Các câu lạc bộ của trường PTDTNT THPT Lào Cai là nơi học sinh giao lưu,
+        giữ gìn bản sắc văn hóa dân tộc và phát triển năng khiếu, kỹ năng cá nhân
+        trong môi trường học đường năng động và thân thiện.
+    </p>
+</section>
+
+<section class="clubs" id="home">
+
+    <!-- CLB TRUYỀN THÔNG -->
+    <div class="club-card">
+        <img src="https://scontent.fhan14-2.fna.fbcdn.net/v/t39.30808-1/518359807_753243193884108_3447187154803498890_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=100&ccb=1-7&_nc_sid=2d3e12&_nc_eui2=AeGUZu6G2JnRCa1xyXAdi4RWJK3dFzKxXFUkrd0XMrFcVaCqtj09hiA6xkLBYE7XDsf2y_4vJcuStVtg5C_4h7yR&_nc_ohc=qqsi8okvRRQQ7kNvwE-0kLa&_nc_oc=Adm9DvQOZxItHGPxs-5FHJHhSuupKvrH-bu_7y9FuLYuGk-X9OgXdPKGSNRgxtOiY64&_nc_zt=24&_nc_ht=scontent.fhan14-2.fna&_nc_gid=5TeplzZEop9l-KHdhHqcig&oh=00_AfpQRmOtvfKqB-G5eboMmtlMrAADqxL_LEYLbasAcnez4Q&oe=69811B0C" alt="CLB Truyền thông">
+        <h2>CLB Truyền thông</h2>
+        <p>
+            CLB Truyền thông là nơi học sinh rèn luyện kỹ năng viết bài, thiết kế,
+            quay dựng video và lan tỏa hình ảnh các hoạt động của nhà trường.
+        </p>
+       <a href="truyenthong.html" class="btn">
+    Xem chi tiết
+</a>
+    </div>
+
+    <!-- CLB English -->
+    <div class="club-card">
+        <img src="https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-1/586520585_122155115768804833_6275504893682475109_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=101&ccb=1-7&_nc_sid=2d3e12&_nc_eui2=AeHrNf8FtZIesLGaeshqnBLyII28wWOZf60gjbzBY5l_rRt80BuPiPlv8JMAF-xjZ5pSlVQmzr2jgaav6K2AArwL&_nc_ohc=moUraVT02e8Q7kNvwEnyqP_&_nc_oc=Adnx1g1Zx9ixBXJvXbTuQIp2sJODzXWeSfZRBInqEW-Uunzjg8g3NWQy1HJXL-FUA3Q&_nc_zt=24&_nc_ht=scontent.fhan14-1.fna&_nc_gid=22MuwIo6UOGiD9zDLHxzBA&oh=00_AfoA__-recEC0m2lkDrI8Jbty6akenviThCDjRzFt8SCPQ&oe=69812F85" alt="CLB Nhiếp ảnh">
+        <h2>CLB English</h2>
+        <p>
+            Câu lạc bộ Tiếng Anh là nơi dành cho học sinh yêu thích và mong muốn nâng cao khả năng sử dụng tiếng Anh.
+            Tham gia câu lạc bộ, các bạn sẽ được rèn luyện kỹ năng nghe, nói, đọc, viết thông qua các hoạt động giao lưu, thảo luận và trò chơi thú vị. CLB tạo môi trường học tập năng động, giúp học sinh tự tin hơn trong giao tiếp và mở rộng hiểu biết về ngôn ngữ, văn hóa quốc tế.
+        </p>
+           <a href="english.html" class="btn">
+    Xem chi tiết
+</a>
+    </div>
+
+    <!-- CLB NGHỆ THUẬT -->
+    <div class="club-card">
+        <img src="https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-1/493216648_122122014152797409_3923418891335691136_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=105&ccb=1-7&_nc_sid=2d3e12&_nc_eui2=AeHfpSMP6vs9UGsIFy8hWMI-qEsM_shdoJKoSwz-yF2gkotDA6bSOI6tmjPDMyvHg9BkkA0kI7JCRmsVyuqXRllO&_nc_ohc=DoVNsm3RN0wQ7kNvwE-a3Ri&_nc_oc=AdkHYPm2PkczTXL3UAiVY6gAad8ePqwQkfi8xXp22ipHDXoKNcWJa3x1AGUoc9r2Ti0&_nc_zt=24&_nc_ht=scontent.fhan14-1.fna&_nc_gid=IcjyXB5OjXetfeNaSlaZXg&oh=00_Afp26aRWh3MBt10Iqs6TX99xhwXsGR74u-_4lMw1_R4fJg&oe=69813C50" alt="CLB Nghệ thuật">
+        <h2>CLB Nghệ thuật</h2>
+        <p>
+            CLB Nghệ thuật là sân chơi sáng tạo cho học sinh đam mê ca hát, nhảy múa,
+            diễn xuất và các hoạt động biểu diễn.
+        </p>
+            <a href="nghethuat.html" class="btn">
+    Xem chi tiết
+</a>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 | Trường PTDTNT THPT Lào Cai
+</footer>
+
+</body>
+</html>
